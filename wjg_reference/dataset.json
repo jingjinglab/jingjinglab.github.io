@@ -1,0 +1,418 @@
+{
+  "fileVersions": {
+    "inMeta": {
+      "fname": "/mnt/data/scrna_atac_cvedic/scJMML/Multiseq/Seurat/cb_ref/meta.tsv",
+      "md5": "1bd530db65",
+      "size": 3646481,
+      "mtime": "2021-06-10 01:22:26"
+    },
+    "outMeta": {
+      "fname": "./webpage/wjg_reference/meta.tsv",
+      "md5": "b92a6f13d7",
+      "size": 3575306,
+      "mtime": "2021-06-10 02:01:02"
+    },
+    "inMatrix": {
+      "fname": "/mnt/data/scrna_atac_cvedic/scJMML/Multiseq/Seurat/cb_ref/exprMatrix.tsv.gz",
+      "md5": "92a646d136",
+      "size": 50510955,
+      "mtime": "2021-06-10 01:22:26"
+    },
+    "outMatrix": {
+      "fname": "./webpage/wjg_reference/exprMatrix.tsv.gz",
+      "md5": "92a646d136",
+      "size": 50510955,
+      "mtime": "2021-06-10 02:01:04"
+    },
+    "conf": {
+      "fname": "/mnt/data/scrna_atac_cvedic/scJMML/Multiseq/Seurat/cb_ref/cellbrowser.conf",
+      "md5": "40512b83f3",
+      "size": 866,
+      "mtime": "2021-06-10 01:22:26"
+    }
+  },
+  "sampleCount": 35582,
+  "matrixWasFiltered": false,
+  "metaFields": [
+    {
+      "name": "Cell",
+      "label": "Cell",
+      "type": "uniqueString",
+      "maxSize": 42,
+      "diffValCount": 35582,
+      "md5": "aacf8a6c17"
+    },
+    {
+      "name": "origident",
+      "label": "orig.ident",
+      "type": "enum",
+      "valCounts": [
+        [
+          "PBMC",
+          14804
+        ],
+        [
+          "BMMC",
+          12602
+        ],
+        [
+          "CD34",
+          8176
+        ]
+      ],
+      "arrType": "Uint8",
+      "diffValCount": 3,
+      "md5": "31ac5c0974"
+    },
+    {
+      "name": "nCount_RNA",
+      "label": "nCount_RNA",
+      "arrType": "float32",
+      "type": "int",
+      "diffValCount": 6865,
+      "md5": "874152aab7"
+    },
+    {
+      "name": "nFeature_RNA",
+      "label": "nFeature_RNA",
+      "arrType": "float32",
+      "type": "int",
+      "diffValCount": 2948,
+      "md5": "e3fdc2e19e"
+    },
+    {
+      "name": "Group",
+      "label": "Group",
+      "type": "enum",
+      "valCounts": [
+        [
+          "PBMC_D4T1",
+          7544
+        ],
+        [
+          "PBMC_D4T2",
+          7260
+        ],
+        [
+          "BMMC_D1T2",
+          6332
+        ],
+        [
+          "BMMC_D1T1",
+          6270
+        ],
+        [
+          "CD34_D3T1",
+          5752
+        ],
+        [
+          "CD34_D2T1",
+          2424
+        ]
+      ],
+      "arrType": "Uint8",
+      "diffValCount": 6,
+      "md5": "6475c65c09"
+    },
+    {
+      "name": "BioClassification",
+      "label": "BioClassification",
+      "type": "enum",
+      "valCounts": [
+        [
+          "12_CD14.Mono.2",
+          4222
+        ],
+        [
+          "22_CD4.M",
+          3539
+        ],
+        [
+          "20_CD4.N1",
+          2470
+        ],
+        [
+          "21_CD4.N2",
+          2364
+        ],
+        [
+          "05_CMP.LMPP",
+          2260
+        ],
+        [
+          "25_NK",
+          2143
+        ],
+        [
+          "07_GMP",
+          2097
+        ],
+        [
+          "24_CD8.CM",
+          2080
+        ],
+        [
+          "11_CD14.Mono.1",
+          1800
+        ],
+        [
+          "17_B",
+          1711
+        ],
+        [
+          "02_Early.Eryth",
+          1653
+        ],
+        [
+          "19_CD8.N",
+          1521
+        ],
+        [
+          "01_HSC",
+          1425
+        ],
+        [
+          "08_GMP.Neut",
+          1050
+        ],
+        [
+          "06_CLP.1",
+          903
+        ],
+        [
+          "23_CD8.EM",
+          796
+        ],
+        [
+          "16_Pre.B",
+          710
+        ],
+        [
+          "09_pDC",
+          544
+        ],
+        [
+          "14_Unk",
+          520
+        ],
+        [
+          "03_Late.Eryth",
+          446
+        ],
+        [
+          "15_CLP.2",
+          377
+        ],
+        [
+          "10_cDC",
+          325
+        ],
+        [
+          "13_CD16.Mono",
+          292
+        ],
+        [
+          "26_Unk",
+          161
+        ],
+        [
+          "04_Early.Baso",
+          111
+        ],
+        [
+          "18_Plasma",
+          62
+        ]
+      ],
+      "arrType": "Uint8",
+      "diffValCount": 26,
+      "md5": "9e05e1282f"
+    },
+    {
+      "name": "clusters",
+      "label": "clusters",
+      "type": "enum",
+      "valCounts": [
+        [
+          "Cluster12",
+          4222
+        ],
+        [
+          "Cluster22",
+          3539
+        ],
+        [
+          "Cluster20",
+          2470
+        ],
+        [
+          "Cluster21",
+          2364
+        ],
+        [
+          "Cluster5",
+          2260
+        ],
+        [
+          "Cluster25",
+          2143
+        ],
+        [
+          "Cluster7",
+          2097
+        ],
+        [
+          "Cluster24",
+          2080
+        ],
+        [
+          "Cluster11",
+          1800
+        ],
+        [
+          "Cluster17",
+          1711
+        ],
+        [
+          "Cluster2",
+          1653
+        ],
+        [
+          "Cluster19",
+          1521
+        ],
+        [
+          "Cluster1",
+          1425
+        ],
+        [
+          "Cluster8",
+          1050
+        ],
+        [
+          "Cluster6",
+          903
+        ],
+        [
+          "Cluster23",
+          796
+        ],
+        [
+          "Cluster16",
+          710
+        ],
+        [
+          "Cluster9",
+          544
+        ],
+        [
+          "Cluster14",
+          520
+        ],
+        [
+          "Cluster3",
+          446
+        ],
+        [
+          "Cluster15",
+          377
+        ],
+        [
+          "Cluster10",
+          325
+        ],
+        [
+          "Cluster13",
+          292
+        ],
+        [
+          "Cluster26",
+          161
+        ],
+        [
+          "Cluster4",
+          111
+        ],
+        [
+          "Cluster18",
+          62
+        ]
+      ],
+      "arrType": "Uint8",
+      "diffValCount": 26,
+      "md5": "edfd1a223e"
+    },
+    {
+      "name": "nCount_SCT",
+      "label": "nCount_SCT",
+      "arrType": "float32",
+      "type": "int",
+      "diffValCount": 1527,
+      "md5": "9a060fa0c6"
+    },
+    {
+      "name": "nFeature_SCT",
+      "label": "nFeature_SCT",
+      "arrType": "float32",
+      "type": "int",
+      "diffValCount": 1669,
+      "md5": "8db3267c84"
+    },
+    {
+      "name": "Cluster",
+      "label": "Cluster",
+      "type": "enum",
+      "valCounts": [
+        [
+          "PBMC",
+          14804
+        ],
+        [
+          "BMMC",
+          12602
+        ],
+        [
+          "CD34",
+          8176
+        ]
+      ],
+      "arrType": "Uint8",
+      "diffValCount": 3,
+      "md5": "15d72e7b94"
+    }
+  ],
+  "matrixArrType": "Uint32",
+  "labelField": "BioClassification",
+  "coords": [
+    {
+      "name": "coords_0",
+      "shortLabel": "Seurat umap",
+      "md5": "37c07c2f24",
+      "minX": 0,
+      "maxX": 65535,
+      "minY": 0,
+      "maxY": 65535,
+      "type": "Uint16",
+      "labelMd5": "d41d8cd98f"
+    },
+    {
+      "name": "coords_1",
+      "shortLabel": "Seurat pca",
+      "md5": "b96cdaaec4",
+      "minX": 0,
+      "maxX": 65535,
+      "minY": 0,
+      "maxY": 65535,
+      "type": "Uint16",
+      "labelMd5": "d41d8cd98f"
+    }
+  ],
+  "hasFiles": [
+    "datasetDesc"
+  ],
+  "markers": [],
+  "name": "wjg_reference",
+  "shortLabel": "wjg_reference",
+  "clusterField": "BioClassification",
+  "md5": "5087a9265d"
+}
