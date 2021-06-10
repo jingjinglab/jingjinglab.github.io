@@ -1,0 +1,38 @@
+{
+  "name": "multiseq",
+  "shortLabel": "multiseq",
+  "exprMatrix": "exprMatrix.tsv.gz",
+  "meta": "meta.tsv",
+  "geneIdType": "auto",
+  "clusterField": "predicted.celltype_wjg",
+  "labelField": "predicted.celltype_wjg",
+  "enumFields": [
+    "SCT_snn_res.0.8",
+    "seurat_clusters",
+    "predicted.celltype_wjg",
+    "predicted.group",
+    "donor",
+    "id",
+    "popscle_doublet",
+    "Cluster"
+  ],
+  "coords": [
+    {
+      "file": "/mnt/data/scrna_atac_cvedic/scJMML/Multiseq/Seurat/cb/umap.coords.tsv",
+      "shortLabel": "Seurat umap"
+    },
+    {
+      "file": "/mnt/data/scrna_atac_cvedic/scJMML/Multiseq/Seurat/cb/ref.umap.coords.tsv",
+      "shortLabel": "Seurat ref.umap"
+    },
+    {
+      "file": "/mnt/data/scrna_atac_cvedic/scJMML/Multiseq/Seurat/cb/ref.pca.coords.tsv",
+      "shortLabel": "Seurat ref.pca"
+    },
+    {
+      "file": "/mnt/data/scrna_atac_cvedic/scJMML/Multiseq/Seurat/cb/pca.coords.tsv",
+      "shortLabel": "Seurat pca"
+    }
+  ],
+  "inDir": ""
+}

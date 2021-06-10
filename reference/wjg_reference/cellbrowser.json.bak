@@ -1,0 +1,27 @@
+{
+  "name": "wjg_reference",
+  "shortLabel": "wjg_reference",
+  "exprMatrix": "exprMatrix.tsv.gz",
+  "meta": "meta.tsv",
+  "geneIdType": "auto",
+  "clusterField": "BioClassification",
+  "labelField": "BioClassification",
+  "enumFields": [
+    "orig.ident",
+    "Group",
+    "BioClassification",
+    "clusters",
+    "Cluster"
+  ],
+  "coords": [
+    {
+      "file": "/mnt/data/scrna_atac_cvedic/scJMML/Multiseq/Seurat/cb_ref/umap.coords.tsv",
+      "shortLabel": "Seurat umap"
+    },
+    {
+      "file": "/mnt/data/scrna_atac_cvedic/scJMML/Multiseq/Seurat/cb_ref/pca.coords.tsv",
+      "shortLabel": "Seurat pca"
+    }
+  ],
+  "inDir": ""
+}

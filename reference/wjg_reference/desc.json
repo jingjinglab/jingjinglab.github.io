@@ -1,0 +1,7 @@
+{
+  "coordFiles": [
+    "Seurat_umap.coords.tsv.gz",
+    "Seurat_pca.coords.tsv.gz"
+  ],
+  "matrixFile": "./webpage/wjg_reference/exprMatrix.tsv.gz"
+}

@@ -1,0 +1,9 @@
+{
+  "coordFiles": [
+    "Seurat_umap.coords.tsv.gz",
+    "Seurat_refumap.coords.tsv.gz",
+    "Seurat_refpca.coords.tsv.gz",
+    "Seurat_pca.coords.tsv.gz"
+  ],
+  "matrixFile": "./webpage/multiseq/exprMatrix.tsv.gz"
+}
